@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>For My Jaan — 2 Months ❤️</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;600;700&family=Great+Vibes&display=swap');
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:#04030b;color:#fff;font-family:"DM Sans",sans-serif;overflow-x:hidden}
+body:before{content:"";position:fixed;inset:0;z-index:-3;background:
+radial-gradient(circle at 50% 0%,#351044 0%,#110719 38%,#04030b 78%)}
+body:after{content:"";position:fixed;inset:0;z-index:-2;opacity:.35;background-image:
+radial-gradient(#fff 1px,transparent 1px),radial-gradient(#ff75bb 1px,transparent 1px);
+background-size:95px 95px,173px 173px;background-position:15px 30px,60px 100px}
+*{scrollbar-width:thin;scrollbar-color:#ff4d9d #090510}
+.topbar{position:fixed;top:14px;left:14px;right:14px;z-index:50;display:flex;justify-content:space-between;align-items:center;pointer-events:none}
+.pill{pointer-events:auto;border:1px solid #ff4d9d88;background:#0b0714cc;backdrop-filter:blur(12px);padding:9px 14px;border-radius:30px;font-size:12px;color:#ffd1e8;box-shadow:0 0 20px #ff4d9d22}
+.hero{min-height:100vh;display:flex;align-items:center;justify-content:center;text-align:center;padding:80px 20px;position:relative}
+.heroInner{max-width:900px}
+.script{font-family:"Great Vibes",cursive;font-size:clamp(40px,7vw,75px);color:#ffb6dc;text-shadow:0 0 20px #ff4d9d}
+h1{font-size:clamp(60px,13vw,150px);line-height:.9;margin:0;color:#fff;text-shadow:0 0 15px #ff4d9d,0 0 55px #ff267f;font-weight:700;letter-spacing:-5px}
+.hero .to{font-size:clamp(25px,5vw,50px);color:#ff70b8;margin:18px 0}
+.hero p{color:#ddd;line-height:1.8;font-style:italic}
+.glowBtn{border:1px solid #ff79b9;background:linear-gradient(100deg,#ff3f98,#ff86c4);color:white;border-radius:40px;padding:15px 28px;font-weight:700;font-size:15px;cursor:pointer;box-shadow:0 0 30px #ff4d9d66;transition:.25s}
+.glowBtn:hover{transform:translateY(-3px) scale(1.03);box-shadow:0 0 45px #ff4d9daa}
+.scroll{margin-top:35px;color:#ff8bc3;animation:bounce 1.5s infinite}
+@keyframes bounce{50%{transform:translateY(8px)}}
+.heartBig{position:absolute;font-size:130px;color:#ff4c9f;text-shadow:0 0 35px #ff4c9f;animation:pulse 2s infinite}
+.left{left:8%;top:35%}.right{right:8%;top:28%}
+@keyframes pulse{50%{transform:scale(1.12)}}
+.container{width:min(1200px,92%);margin:auto;padding-bottom:60px;display:none}.container.show{display:block}
+.section{margin:22px 0;padding:28px;border:1px solid #7e174e;border-radius:24px;background:#0b0714cc;backdrop-filter:blur(10px);box-shadow:0 0 35px #ff3f8a12}
+.sectionTitle{text-align:center;color:#ff79b9;font-size:22px;font-weight:700;margin-bottom:22px;text-transform:uppercase;letter-spacing:2px}
+.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}
+.stat{border:1px solid #9b2862;border-radius:16px;padding:18px;text-align:center;background:#100a1c}
+.stat b{font-size:30px;color:#ff74b7;display:block}.stat span{font-size:12px;color:#bbb}
+.quote{text-align:center;color:#ffacd5;font-style:italic;margin-top:18px}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:22px}
+.reasons{display:grid;grid-template-columns:repeat(2,1fr);gap:10px}
+.reason{border:1px solid #8f215a;border-radius:15px;padding:16px;text-align:center;background:#100a1a}
+.reason b{display:block;color:#ff8bc2;margin-top:7px}
+.letter{line-height:1.9;color:#eee;font-size:16px}
+.letter .big{font-family:"Great Vibes";font-size:34px;color:#ff8bc2}
+.timeline{position:relative;margin:25px auto;max-width:800px}
+.timeline:before{content:"";position:absolute;left:50%;top:0;bottom:0;width:1px;background:#ff4d9d66}
+.event{width:47%;padding:17px;border:1px solid #8d2058;border-radius:16px;background:#0e0918;margin:18px 0;position:relative}
+.event:nth-child(even){margin-left:53%}
+.event h3{margin:0 0 7px;color:#ff82bd}.event p{margin:0;color:#ccc;line-height:1.6;font-size:14px}
+.memoryGrid{display:grid;grid-template-columns:repeat(4,1fr);gap:15px}
+.polaroid{background:#f7f1f3;padding:9px 9px 28px;color:#222;transform:rotate(-3deg);box-shadow:0 12px 25px #0008}
+.polaroid:nth-child(2){transform:rotate(3deg)}.polaroid:nth-child(3){transform:rotate(-2deg)}.polaroid:nth-child(4){transform:rotate(4deg)}
+.fakephoto{height:180px;display:flex;align-items:center;justify-content:center;font-size:48px;background:linear-gradient(135deg,#26102e,#e9448f,#160c25)}
+.caption{text-align:center;font-family:cursive;margin-top:10px}
+.envelopeBox{text-align:center;padding:30px;border-radius:20px;background:linear-gradient(145deg,#1d0820,#68113f);border:1px solid #ff5ca9}
+.envelope{font-size:100px;filter:drop-shadow(0 0 15px #ff4d9d);animation:float 2s infinite ease-in-out}
+@keyframes float{50%{transform:translateY(-8px)}}
+.secret{display:none;margin:22px auto 0;max-width:700px;padding:22px;border:1px dashed #ff70b7;border-radius:16px;background:#07040e;line-height:1.9;color:#ffd6e9}
+.final{text-align:center;padding:50px 20px;margin-top:30px;border-top:1px solid #74194c}
+.final h2{font-size:clamp(28px,6vw,55px);color:#ff75b8;text-shadow:0 0 25px #ff4d9d}
+.final p{color:#ffc2df}
+.floatHeart{position:fixed;bottom:-40px;z-index:100;pointer-events:none;animation:rise 5s linear forwards}
+@keyframes rise{to{transform:translateY(-110vh) rotate(360deg);opacity:0}}
+.confetti{position:fixed;width:7px;height:7px;top:-10px;z-index:99;animation:fall 3s linear forwards}
+@keyframes fall{to{transform:translateY(110vh) rotate(720deg);opacity:0}}
+@media(max-width:850px){
+.heartBig{display:none}.two{grid-template-columns:1fr}.memoryGrid{grid-template-columns:repeat(2,1fr)}
+.stats{grid-template-columns:repeat(2,1fr)}.event,.event:nth-child(even){width:90%;margin-left:10%}
+.timeline:before{left:3%}.section{padding:20px}
+}
+@media(max-width:500px){h1{letter-spacing:-2px}.memoryGrid{grid-template-columns:1fr 1fr}.polaroid{padding:6px 6px 20px}.fakephoto{height:130px}.reasons{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+
+<div class="topbar">
+<div class="pill">🎵 Hamari Kahani • ❤️</div>
+<div class="pill">Made with ❤️ by Haris</div>
+</div>
+
+<section class="hero">
+<div class="heartBig left">♡</div><div class="heartBig right">♡</div>
+<div class="heroInner">
+<div class="script">Happy</div>
+<h1>2 Months</h1>
+<div class="to">♡ to us ♡</div>
+<p>Do mahine nahi...<br><b>do khoobsurat mahine jo meri zindagi badal gaye. ❤️</b></p>
+<button class="glowBtn" onclick="startSurprise()">CLICK KARO MERI JAAN 💞</button>
+</div>
+</section>
+
+<main class="container" id="main">
+
+<section class="section">
+<div class="sectionTitle">♥ Our little journey ♥</div>
+<div class="stats">
+<div class="stat"><b>60</b><span>DAYS</span></div>
+<div class="stat"><b>1,440</b><span>HOURS</span></div>
+<div class="stat"><b>86,400</b><span>MINUTES</span></div>
+<div class="stat"><b>5,184,000</b><span>SECONDS</span></div>
+</div>
+<div class="quote">“Har second tumhare saath ek nayi yaad ban raha hai...” ♥</div>
+</section>
+
+<div class="two">
+<section class="section">
+<div class="sectionTitle">Why you are special 💗</div>
+<div class="reasons">
+<div class="reason">💗<b>Tumhara pyaar</b></div>
+<div class="reason">😊<b>Tumhari smile</b></div>
+<div class="reason">💬<b>Tumhari baatein</b></div>
+<div class="reason">✨<b>Tumhara trust</b></div>
+<div class="reason">🌸<b>Tumhara care</b></div>
+<div class="reason">∞<b>Tumhara hona</b></div>
+</div>
+</section>
+
+<section class="section">
+<div class="sectionTitle">Tumhari ek baat...</div>
+<p style="line-height:1.9;color:#ddd">“Main jahan bhi jaati hun, jis ke saath bhi baithi hun, hamesha u mere zehan mein hota.” 🥹❤️</p>
+<p style="color:#ff87bf;font-style:italic">Aur meri jaan... tumhe kya pata ye baat kitni special lagi. ♥</p>
+</section>
+</div>
+
+<section class="section">
+<div class="sectionTitle">A little timeline of us ✨</div>
+<div class="timeline">
+<div class="event"><h3>Day 1 — The Beginning ♥</h3><p>Ek normal si shuruaat... aur phir pata hi nahi chala kab tum itni important ban gayi.</p></div>
+<div class="event"><h3>First Smiles 😊</h3><p>Tumhare messages ne woh smiles di jo screen ke is side bhi genuinely feel hoti hain.</p></div>
+<div class="event"><h3>Little Fights 😂</h3><p>Kabhi gussa, kabhi narazgi... phir ek dusre ko mana lena. Hamari story ka cute sa part.</p></div>
+<div class="event"><h3>Today — 2 Months 🥹</h3><p>Aaj hum yahan hain. Aur dil se dua hai ke Allah humare liye hamesha behtareen likhe. 🤲❤️</p></div>
+</div>
+</section>
+
+<section class="section">
+<div class="sectionTitle">Hamari yaadein 📸</div>
+<p class="quote">Photos baad mein add kar lena — abhi placeholders tumhari jagah sambhal rahe hain ❤️</p>
+<div class="memoryGrid">
+<div class="polaroid"><div class="fakephoto">💞</div><div class="caption">Our beginning</div></div>
+<div class="polaroid"><div class="fakephoto">🥹</div><div class="caption">That smile</div></div>
+<div class="polaroid"><div class="fakephoto">✨</div><div class="caption">Our memories</div></div>
+<div class="polaroid"><div class="fakephoto">❤️</div><div class="caption">Just us</div></div>
+</div>
+</section>
+
+<section class="section">
+<div class="sectionTitle">A letter I wanted you to read 💌</div>
+<div class="letter">
+<div class="big">Meri Jaan,</div>
+<p>2 months sunne mein shayad chhota sa number lagta hai, lekin mere liye in 2 months mein bohat kuch badla hai. Tum meri routine ka hissa bani, meri smiles ka reason bani, aur meri bohat si choti choti khushiyon ka sabab bani. 🥹❤️</p>
+<p>Tumhari cute si baatein, tumhara bachon jaisa behave karna, tumhara gussa, phir pyaar se baat karna — honestly, ye sab ab meri favourite cheezon mein se hain. 😂❤️</p>
+<p>Aur jab tum kehti ho ke tum mujhe har namaz mein maangti ho... to meri jaan, us baat ka jawab mere paas sirf ek dua hai: <b>Allah agar hum dono ek dusre ke liye behtar hain, to humara saath halal, khubsurat aur hamesha ke liye bana de. Ameen. 🤲❤️</b></p>
+<p>Main future ka wada nahi karunga ke sab kuch hamesha perfect hoga, lekin itna zaroor kehunga ke tumhari izzat, tumhari khushi aur tumhari feelings mere liye important hain. ❤️</p>
+<p style="text-align:center;color:#ff83bd;font-size:22px"><b>Happy 2 Months, Meri Jaan. 🥹❤️</b></p>
+</div>
+</section>
+
+<section class="section">
+<div class="sectionTitle">One last surprise 🎁</div>
+<div class="envelopeBox">
+<div class="envelope">💌</div>
+<h2>Open this when you're ready...</h2>
+<p style="color:#ffd1e8">Iske andar woh baat hai jo main normally itni easily nahi keh pata. 🥹</p>
+<button class="glowBtn" onclick="openSecret()">OPEN MY HEART ❤️</button>
+<div class="secret" id="secret">
+<b>Meri jaan...</b><br><br>
+Agar tum yahan tak aa gayi ho, to bas ek cheez yaad rakhna: tumhari value sirf aaj ke din nahi hai. Tum important ho, tum special ho, aur tumhari khushi matter karti hai. 🥹❤️<br><br>
+Thank you for these beautiful 2 months. Thank you for every smile, every conversation, every little moment. ♥<br><br>
+<b>Happy 2 Months to us. ❤️</b><br>
+In sha Allah, agar Allah ne behtar likha, to ek din hum in 2 months ko dekh kar kahenge: “Yahan se hamari kahani aur bhi khoobsurat hui thi.” 🤲✨
+</div>
+</div>
+</section>
+
+<div class="final">
+<h2>2 MONTHS DOWN 💞</h2>
+<p>...and so many beautiful memories still waiting for us.</p>
+<div class="script">In sha Allah... Ameen 🤲❤️</div>
+</div>
+</main>
+
+<script>
+function floatHeart(){
+ const x=document.createElement("div");
+ x.className="floatHeart";
+ x.textContent=["♥","♡","💗","✨","🥹"][Math.floor(Math.random()*5)];
+ x.style.left=Math.random()*100+"vw";
+ x.style.fontSize=(18+Math.random()*35)+"px";
+ x.style.color=["#ff4d9d","#ff86c4","#fff","#ffb6dc"][Math.floor(Math.random()*4)];
+ document.body.appendChild(x);setTimeout(()=>x.remove(),5000);
+}
+function confetti(){
+ for(let i=0;i<80;i++){
+  setTimeout(()=>{
+   const c=document.createElement("div");c.className="confetti";
+   c.style.left=Math.random()*100+"vw";
+   c.style.background=["#ff4d9d","#ff9ccc","#fff","#b86cff"][Math.floor(Math.random()*4)];
+   c.style.transform="rotate("+Math.random()*360+"deg)";
+   document.body.appendChild(c);setTimeout(()=>c.remove(),3200);
+  },i*20);
+ }
+}
+function startSurprise(){
+ confetti();
+ for(let i=0;i<35;i++)setTimeout(floatHeart,i*60);
+ const main=document.getElementById("main");
+ main.classList.add("show");
+ setTimeout(()=>main.scrollIntoView({behavior:"smooth",block:"start"}),650);
+}
+function openSecret(){
+ document.getElementById("secret").style.display="block";
+ confetti();
+ for(let i=0;i<35;i++)setTimeout(floatHeart,i*70);
+ document.getElementById("secret").scrollIntoView({behavior:"smooth",block:"center"});
+}
+setInterval(floatHeart,650);
+</script>
+</body>
+</html>
